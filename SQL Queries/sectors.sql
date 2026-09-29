@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS sectors (
+    id SERIAL PRIMARY KEY,
+
+    client_id BIGINT NOT NULL,
+    rep_id BIGINT NOT NULL,
+    
+    nome VARCHAR(150) NOT NULL UNIQUE,
+        
+    is_shared BOOLEAN NOT NULL DEFAULT FALSE
+);
