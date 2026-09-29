@@ -11,6 +11,9 @@ Hello, reader! My name is Lucas and this is a small project I've been working on
 - **Re-run of cleanup_export.ipynb:** checking for missed errors and final formating.
 - **BONUS:** creation and upload of `gibberify.ipynb`, a quick randomizer to protect the privacy and data of the companies I work with. Small groups of vowels and consonants were created to try and avoid a massive eyesore, but it can definitely be further optimized as a fun excercise later on. Both spreadsheets `Gibb Corrected.xlsx` and `Gibb Original.xlsx` are uploaded as well as a base for anyone who wants to follow along the project using the original structure.
 
+### SQL Structure:
+- **Structures defined:** Entities defined as primary tables solely as `name`, relationships defined as `name1_name2` with foreign keys. 
+
 ### To come:
 - Upload of SQL structure;
 - Trasfer of excel data into SQL database;
